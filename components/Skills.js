@@ -37,6 +37,24 @@ const Skills = () => {
                             <p className="text-2xl font-semibold text-gray-700">{skill.name}</p>
                         </motion.div>
                     ))}
+                    <motion.div
+                        className="bg-white p-6 rounded-xl shadow-lg text-center transition transform hover:-translate-y-1 hover:shadow-2xl"
+                        whileHover={{ scale: 1.05 }}
+                        transition={{ duration: 0.3 }}
+                    >
+                        <div className="text-6xl mb-4">🚀</div>
+                        <p className="text-2xl font-semibold text-gray-700">Server Migration to Cloud</p>
+                        <p className="text-gray-700">We can assist in migrating your servers to cloud platforms for scalability and efficiency.</p>
+                    </motion.div>
+                    <motion.div
+                        className="bg-white p-6 rounded-xl shadow-lg text-center transition transform hover:-translate-y-1 hover:shadow-2xl"
+                        whileHover={{ scale: 1.05 }}
+                        transition={{ duration: 0.3 }}
+                    >
+                        <div className="text-6xl mb-4">📱</div>
+                        <p className="text-2xl font-semibold text-gray-700">Web & Mobile App Development</p>
+                        <p className="text-gray-700">We specialize in building both web and mobile applications tailored to your needs.</p>
+                    </motion.div>
                 </div>
             </div>
         </section>

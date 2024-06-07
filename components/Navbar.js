@@ -23,7 +23,7 @@ const Navbar = () => {
 
     return (
         <motion.nav
-            className={`fixed top-0 left-0 right-0 bg-blue-600 text-white py-4 transition duration-300 z-50`}
+            className={`fixed top-0 left-0 right-0 bg-blue-900 text-white py-4 transition duration-300 z-50 ${scrolled ? 'shadow-lg' : ''}`}
             initial={{ y: -100 }}
             animate={{ y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
