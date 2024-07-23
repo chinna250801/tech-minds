@@ -4,9 +4,9 @@ const Team = () => {
     // Dummy data for team members (replace with actual data)
     const teamMembers = [
         {
-            name: 'N V NAGENDRA REDDY',
+            name: 'N N VENKAT REDDY',
             role: 'Software Engineer',
-            description: 'Nagendra is a seasoned Software Engineer with a passion for building robust and scalable web applications. With expertise in frontend and backend development, he excels in crafting elegant solutions to complex technical challenges. His dedication to continuous learning and innovation drives him to deliver exceptional results and exceed client expectations.',
+            description: ' I am a seasoned Software Engineer with a passion for building robust and scalable web applications. With expertise in frontend and backend development, he excels in crafting elegant solutions to complex technical challenges. His dedication to continuous learning and innovation drives him to deliver exceptional results and exceed client expectations.',
         },
 
     ];
