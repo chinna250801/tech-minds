@@ -8,11 +8,11 @@ const ContactForm = () => {
                 <div className="max-w-md mx-auto">
                     <div className="mb-8">
                         <p className="text-lg font-semibold mb-2">Email:</p>
-                        <p className="text-blue-500 leading-relaxed">vsnreddy65@gmail.com</p>
+                        <p className="text-blue-500 leading-relaxed">techmindscollective@gmail.com</p>
                     </div>
                     <div className="mb-8">
                         <p className="text-lg font-semibold mb-2">Phone:</p>
-                        <p className="text-blue-500 leading-relaxed">+91 9951754803</p>
+                        <p className="text-blue-500 leading-relaxed">+91 8985556220</p>
                     </div>
                     <div className="mb-8">
                         <p className="text-lg font-semibold mb-2">Address:</p>
